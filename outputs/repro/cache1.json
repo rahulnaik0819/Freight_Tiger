@@ -1,0 +1,275 @@
+{
+ "02b460d450b1e9d08fcf": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 249,
+   "output_tokens": 76
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N003",
+   "reason": "The cost increase is justified by a nationwide rise in diesel prices affecting all routes during the week of 2025-05-05, as documented in note N003."
+  }
+ },
+ "06ae37827c405a1cb8c0": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 248,
+   "output_tokens": 77
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N003",
+   "reason": "The note N003 applies to all routes and explains a nationwide increase in diesel prices starting May 5th, which covers the spike week of May 12th, justifying the cost increase."
+  }
+ },
+ "2193dec94e62a8f9568e": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 270,
+   "output_tokens": 78
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N001",
+   "reason": "The note confirms heavy flooding on the Chennai-Bangalore route from Feb 24 to Mar 8, which covers the spike week of Mar 3 and explains the increased trip costs due to detours."
+  }
+ },
+ "254f83a247d2c6fb4e42": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 270,
+   "output_tokens": 92
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N001",
+   "reason": "The note indicates that the flooding disruption ended on March 8, 2025, and roads were passable by March 9. The cost spike occurred during the week of March 10, 2025, which is outside the period of disruption described in the note."
+  }
+ },
+ "28f1cf425443d86853ad": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 246,
+   "output_tokens": 65
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N006",
+   "reason": "The provided note indicates that freight capacity demand remained stable with no major disruptions, which does not explain or justify the cost increase observed for the Mumbai-Pune route."
+  }
+ },
+ "2cc5cc37b6af020eb528": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 248,
+   "output_tokens": 58
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N010",
+   "reason": "The note explicitly states that compliance costs were absorbed by transporters without a rate change, therefore it does not justify the cost increase."
+  }
+ },
+ "3a77236c746371dd4aa2": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 246,
+   "output_tokens": 59
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N006",
+   "reason": "The provided note indicates that freight demand remained stable and does not provide a justification for the cost increase on the Mumbai-Pune route."
+  }
+ },
+ "3c8ad39f4cd9e66d2393": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 249,
+   "output_tokens": 59
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "None",
+   "reason": "No provided notes justify the cost increase for the Mumbai-Pune route during the week of 2024-03-25."
+  }
+ },
+ "95cfeec109f9f5a037dd": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 246,
+   "output_tokens": 60
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N006",
+   "reason": "The provided note indicates that freight capacity demand remained stable and does not explain or justify the cost increase observed for the Mumbai-Pune route."
+  }
+ },
+ "a48ff4dc037ec00eee2b": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 248,
+   "output_tokens": 58
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N010",
+   "reason": "The note explicitly states that compliance costs were absorbed by transporters without a rate change, therefore it does not justify the cost increase."
+  }
+ },
+ "a4e222be32bfb335b751": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 248,
+   "output_tokens": 74
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N003",
+   "reason": "The note N003 confirms a nationwide diesel price increase affecting all routes starting May 5th, which covers the spike week of May 12th and explains the cost increase."
+  }
+ },
+ "b446ecc1a1a43bf2d323": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 248,
+   "output_tokens": 58
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N010",
+   "reason": "The note explicitly states that compliance costs were absorbed by transporters without a rate change, therefore it does not justify the cost increase."
+  }
+ },
+ "bc12cef7aba9d7ba5d3b": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 249,
+   "output_tokens": 69
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "None",
+   "reason": "The current cost of 3.33 is below the historical average of 3.36, and the only available note explicitly states that the affected routes are not part of this dataset."
+  }
+ },
+ "bf87c0e42916e9d513a5": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 338,
+   "output_tokens": 89
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "None",
+   "reason": "The provided notes do not justify the cost spike for the week of 2025-03-17. Note N001 describes disruptions ending on Mar 8, and Note N009 confirms the route returned to normal conditions as of the week of the spike."
+  }
+ },
+ "c16b69e641387b9c08d1": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 248,
+   "output_tokens": 58
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N010",
+   "reason": "The note explicitly states that compliance costs were absorbed by transporters without a rate change, therefore it does not justify a cost increase."
+  }
+ },
+ "d10a81ebcfee39032f5f": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 249,
+   "output_tokens": 91
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N003",
+   "reason": "The nationwide diesel price increase noted on 2025-05-05 explains the cost spike for the week of 2025-05-12, as it applies to all routes and accounts for a 5-7% increase."
+  }
+ },
+ "d1c6f97b760cf1ac21cf": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 270,
+   "output_tokens": 86
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N001",
+   "reason": "The cost spike is justified by note N001, which reports heavy flooding on the Chennai-Bangalore highway during the week of 2025-02-24, necessitating longer detours and resulting in higher trip costs."
+  }
+ },
+ "e16a0bc643e5aa9fd9a3": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 246,
+   "output_tokens": 65
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N006",
+   "reason": "The retrieved note indicates that demand remained stable and there were no major disruptions, which does not explain or justify the cost increase observed for the Mumbai-Delhi route."
+  }
+ },
+ "ef35dca1466fdb7b3e97": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 249,
+   "output_tokens": 62
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "None",
+   "reason": "The only available note explicitly states that the affected routes are not part of this dataset, therefore it does not justify the cost spike for the Mumbai-Pune route."
+  }
+ },
+ "fa06ed52b374024dbda1": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 253,
+   "output_tokens": 88
+  },
+  "verdict": {
+   "flagged": "No (justified)",
+   "matched_note_id": "N002",
+   "reason": "The cost spike is justified by note N002, which explicitly mentions a temporary surcharge on the Ahmedabad-Mumbai corridor for the week of 2025-01-20 due to high demand and limited truck availability during a regional festival."
+  }
+ },
+ "ff8e45173a2836ccf909": {
+  "model": "gemini-3.1-flash-lite",
+  "source": "live",
+  "usage": {
+   "input_tokens": 246,
+   "output_tokens": 72
+  },
+  "verdict": {
+   "flagged": "Yes",
+   "matched_note_id": "N006",
+   "reason": "The retrieved note indicates that freight demand and capacity remained stable, which does not provide a justification for the cost increase observed in the week of 2025-10-06."
+  }
+ }
+}

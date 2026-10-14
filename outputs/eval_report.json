@@ -1,0 +1,86 @@
+{
+  "unit_tests": {
+    "run": 28,
+    "failures": 0,
+    "errors": 0
+  },
+  "gold_scoring": {
+    "lenient (ambiguous N003 weeks = justified)": {
+      "rows": 21,
+      "accuracy": 1.0,
+      "justified_precision": 1.0,
+      "justified_recall": 1.0,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "tn": 14,
+      "justified_rows_citing_correct_note": "21/21"
+    },
+    "strict (ambiguous N003 weeks = unexplained)": {
+      "rows": 21,
+      "accuracy": 0.857,
+      "justified_precision": 0.571,
+      "justified_recall": 1.0,
+      "tp": 4,
+      "fp": 3,
+      "fn": 0,
+      "tn": 14,
+      "justified_rows_citing_correct_note": "21/21"
+    },
+    "unlabelled_spikes_correctly_unexplained": "69/69"
+  },
+  "retrieval": {
+    "backend": "tfidf",
+    "spikes": 90,
+    "unfiltered_top3_contains_route_or_date_invalid_note": "90/90",
+    "unfiltered_top3_misses_gold_note": "0/7",
+    "candidates_per_spike_max": 2,
+    "spikes_with_zero_candidates": 69,
+    "note": "top-k never binds (max candidates < TOP_K): the hard filter does the real work"
+  },
+  "threshold_sensitivity": [
+    {
+      "threshold": 1.05,
+      "flagged": 219,
+      "history_only_or_both": 50,
+      "peers_only": 169,
+      "mumbai_pune": 96
+    },
+    {
+      "threshold": 1.1,
+      "flagged": 90,
+      "history_only_or_both": 8,
+      "peers_only": 82,
+      "mumbai_pune": 67
+    },
+    {
+      "threshold": 1.15,
+      "flagged": 27,
+      "history_only_or_both": 6,
+      "peers_only": 21,
+      "mumbai_pune": 20
+    },
+    {
+      "threshold": 1.2,
+      "flagged": 20,
+      "history_only_or_both": 6,
+      "peers_only": 14,
+      "mumbai_pune": 13
+    }
+  ],
+  "verifier_vs_llm_on_original_verdicts": {
+    "rows_judged_by_llm": 21,
+    "verifier_and_llm_agree": 21,
+    "llm_justified_but_verifier_rejects": 0,
+    "verifier_accepts_but_llm_rejects": 0,
+    "llm_cited_note_passes_verifier": true
+  },
+  "token_estimate": {
+    "basis": "ESTIMATE (chars/4), not measured",
+    "llm_calls_needed_per_clean_run": 21,
+    "input_tokens_est": 4569,
+    "output_tokens_est": 1207,
+    "cost_usd_at_published_paid_rate": 0.00295,
+    "rate_used": "$0.25 in / $1.50 out per 1M tokens (Gemini 3.1 Flash-Lite Preview, ai.google.dev/pricing); free tier = $0"
+  }
+}

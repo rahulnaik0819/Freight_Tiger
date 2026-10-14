@@ -1,0 +1,8 @@
+mode: LIVE LLM calls (--no-cache)
+model pinned: gemini-3.1-flash-lite
+runs: 3
+sha256 run1: 5bf00c93c685eec281f9f2004727c0c3c8584b43ae5e69e4de86d6b65f5a243f
+sha256 run2: 5bf00c93c685eec281f9f2004727c0c3c8584b43ae5e69e4de86d6b65f5a243f
+sha256 run3: 5bf00c93c685eec281f9f2004727c0c3c8584b43ae5e69e4de86d6b65f5a243f
+verdict/cited-note/number columns identical across runs: True
+entire CSV (including reason text) byte-identical: True

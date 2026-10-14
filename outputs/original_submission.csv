@@ -1,0 +1,91 @@
+route,week_of,cost_per_tonne_km,vs_own_history,vs_similar_routes,flagged,matched_note_id,reason
+Delhi-Jaipur,2024-11-11,4.1729570742422215,+35.5% vs this route's past average,+21.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2025-02-24,3.5828266015473207,+31.5% vs this route's past average,+38.7% vs similar-length routes this week,No (justified),N001,"The cost spike is justified by note N001, which reports heavy flooding on the Chennai-Bangalore route during the week of 2025-02-24, necessitating longer detours and resulting in higher trip costs."
+Ahmedabad-Mumbai,2025-01-20,3.290367187391165,+29.5% vs this route's past average,+22.5% vs similar-length routes this week,No (justified),N002,"The cost spike is justified by note N002, which explicitly mentions a temporary surcharge on the Ahmedabad-Mumbai corridor for the week of 2025-01-20 due to high demand and limited truck availability during a regional festival."
+Delhi-Jaipur,2024-11-18,4.09056418496697,+27.6% vs this route's past average,+19.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2025-03-03,3.476189317773476,+22.8% vs this route's past average,+32.0% vs similar-length routes this week,No (justified),N001,"The note explicitly mentions heavy flooding on the Chennai-Bangalore route causing longer detours and higher trip costs during the period of Feb 24 to Mar 8, which directly covers the spike week of 2025-03-03."
+Chennai-Bangalore,2025-03-10,3.5716665390864866,+22.1% vs this route's past average,+33.8% vs similar-length routes this week,Yes,,"The note indicates that the flooding disruption ended on March 8, 2025, and roads were passable by March 9. The cost spike occurred during the week of March 10, 2025, which is after the disruption period mentioned in the note."
+Chennai-Bangalore,2025-03-17,3.469236786814112,+13.7% vs this route's past average,+33.5% vs similar-length routes this week,Yes,,"The retrieved notes indicate that flood-related disruptions ended by March 9, 2025, and the route returned to normal conditions by the week of March 17, 2025. There is no justification provided for the cost increase during the specified week."
+Mumbai-Delhi,2025-05-12,2.277680865830098,+11.6% vs this route's past average,+6.7% vs similar-length routes this week,No (justified),N003,"The cost increase is justified by a nationwide diesel price hike affecting all routes, which aligns with the observed cost spike."
+Mumbai-Pune,2025-09-15,3.980809988861693,+9.2% vs this route's past average,+23.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-11-17,4.322076630701151,+8.9% vs this route's past average,+31.6% vs similar-length routes this week,Yes,,"The note explicitly states that compliance costs were absorbed by transporters without a rate change, therefore it does not justify the cost increase."
+Mumbai-Pune,2025-12-01,4.39279820396953,+7.7% vs this route's past average,+37.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-10-20,4.095333723524663,+7.7% vs this route's past average,+24.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-11-03,4.199374723893023,+7.4% vs this route's past average,+24.1% vs similar-length routes this week,Yes,,"The retrieved note explicitly states that compliance costs were absorbed by transporters without a rate change, therefore it does not justify the cost increase."
+Mumbai-Pune,2025-12-08,4.43194078435407,+7.2% vs this route's past average,+38.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-06-16,3.719532265276978,+6.6% vs this route's past average,+13.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Delhi-Chennai,2025-02-17,2.2192878406636614,+6.5% vs this route's past average,+11.9% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Delhi-Chennai,2025-01-27,2.1813316405579246,+6.3% vs this route's past average,+10.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-06-23,3.7622269155262513,+6.2% vs this route's past average,+20.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-03-25,3.5335160282395406,+6.1% vs this route's past average,+11.3% vs similar-length routes this week,Yes,,"The only available note (N004) explicitly states that the affected routes are not part of this dataset, therefore it does not justify the cost spike for the Mumbai-Pune route."
+Mumbai-Pune,2025-12-22,4.485336320121254,+5.8% vs this route's past average,+38.9% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-05-12,3.59340162865612,+5.6% vs this route's past average,+12.8% vs similar-length routes this week,No (justified),N003,"The note N003 indicates a nationwide diesel price increase affecting all routes starting the week of 2025-05-05, which directly accounts for the cost spike observed in the week of 2025-05-12."
+Mumbai-Pune,2025-10-27,4.073233796244364,+5.5% vs this route's past average,+28.3% vs similar-length routes this week,Yes,,"The note explicitly states that compliance costs were absorbed by transporters without a rate change, meaning it does not justify the observed cost increase."
+Mumbai-Pune,2025-10-06,3.941933793159432,+5.4% vs this route's past average,+22.9% vs similar-length routes this week,Yes,,"The retrieved note indicates that freight demand and capacity remained stable, which does not provide a justification for the cost increase observed on the Mumbai-Pune route."
+Mumbai-Pune,2024-04-15,3.5704215300961137,+5.2% vs this route's past average,+11.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-07-08,3.545795292762743,+4.9% vs this route's past average,+13.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2024-06-17,2.8052977771518237,+4.8% vs this route's past average,+10.2% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-08-18,3.785222203965165,+4.8% vs this route's past average,+15.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2025-02-17,2.8429086102475183,+4.8% vs this route's past average,+10.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2025-05-12,2.95644339455139,+4.5% vs this route's past average,+13.0% vs similar-length routes this week,No (justified),N003,The nationwide diesel price increase noted on 2025-05-05 applies to all routes and accounts for the 5-7% cost increase observed in the week of 2025-05-12.
+Delhi-Chennai,2024-04-08,2.175122258803294,+4.4% vs this route's past average,+10.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-12-15,4.388091164267901,+4.4% vs this route's past average,+35.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Delhi,2025-11-24,2.2381856325864686,+4.2% vs this route's past average,+10.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-10-07,3.5131156626483726,+3.9% vs this route's past average,+13.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-04-07,3.526217988209543,+3.8% vs this route's past average,+10.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-04-08,3.4927382217499114,+3.7% vs this route's past average,+11.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-12-16,3.54694667015038,+3.5% vs this route's past average,+15.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Delhi-Chennai,2024-10-21,2.1801357215028125,+3.4% vs this route's past average,+10.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-08-04,3.725071824316962,+3.4% vs this route's past average,+11.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Delhi-Chennai,2024-06-10,2.1845430210001098,+3.3% vs this route's past average,+10.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-06-10,3.533583271479157,+3.2% vs this route's past average,+16.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Delhi,2025-12-22,2.215853146357839,+3.2% vs this route's past average,+11.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-10-28,3.492012229583466,+3.1% vs this route's past average,+15.1% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-09-23,3.467828674477361,+3.1% vs this route's past average,+10.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-11-24,4.15642174319512,+3.0% vs this route's past average,+23.1% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2024-08-12,2.793565130556011,+2.9% vs this route's past average,+11.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Delhi,2025-08-18,2.2240533427724345,+2.8% vs this route's past average,+10.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-06-02,3.571244813860265,+2.8% vs this route's past average,+13.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Delhi,2025-09-22,2.2176597534882507,+2.7% vs this route's past average,+11.9% vs similar-length routes this week,Yes,,"The retrieved note indicates that freight demand remained stable and there were no major disruptions, which does not justify the cost increase observed for the Mumbai-Delhi route."
+Mumbai-Pune,2024-07-22,3.5158347883043497,+2.7% vs this route's past average,+12.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-03-18,3.4145690569706963,+2.6% vs this route's past average,+10.9% vs similar-length routes this week,Yes,,"The only available note explicitly states that the affected routes are not part of this dataset, therefore it does not justify the cost spike for the Mumbai-Pune route."
+Mumbai-Pune,2025-09-22,3.796873032093908,+2.6% vs this route's past average,+18.2% vs similar-length routes this week,Yes,,"The retrieved note indicates that freight capacity demand remained stable and reports no major disruptions, which does not justify the cost increase."
+Mumbai-Pune,2024-04-29,3.5158633957658165,+2.6% vs this route's past average,+14.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-09-08,3.717366853281151,+2.5% vs this route's past average,+14.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-09-29,3.820635179842627,+2.4% vs this route's past average,+11.2% vs similar-length routes this week,Yes,,"The retrieved note indicates stable demand and no major disruptions, which does not justify the cost increase observed for the Mumbai-Pune route."
+Mumbai-Pune,2024-01-08,3.3819401535881366,+2.4% vs this route's past average,+10.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-03-10,3.5152342733551207,+2.4% vs this route's past average,+10.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-03-04,3.40988377758577,+2.4% vs this route's past average,+13.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2024-07-29,2.774044053995563,+2.3% vs this route's past average,+10.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-01-15,3.4115233282114588,+2.1% vs this route's past average,+13.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-01-13,3.52824798657291,+2.0% vs this route's past average,+15.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-10-13,3.865549212043615,+1.9% vs this route's past average,+17.0% vs similar-length routes this week,Yes,,"The retrieved note indicates that freight demand remained stable with no major disruptions, which does not justify the cost increase observed for the Mumbai-Pune route."
+Mumbai-Pune,2024-05-06,3.5040233403720964,+1.9% vs this route's past average,+13.2% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-07-07,3.63991612194976,+1.8% vs this route's past average,+12.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-12-23,3.506811493656316,+1.5% vs this route's past average,+12.7% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Chennai-Bangalore,2025-05-05,2.9513611028351416,+1.5% vs this route's past average,+10.8% vs similar-length routes this week,No (justified),N003,"The note N003 explicitly states that diesel prices rose nationwide during the week of 2025-05-05, affecting all routes and causing a 5-7% increase in transportation costs, which justifies the observed spike."
+Mumbai-Pune,2024-02-19,3.380257680814392,+1.4% vs this route's past average,+12.9% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-09-30,3.422260503106949,+1.4% vs this route's past average,+13.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-01-06,3.498004118085469,+1.3% vs this route's past average,+10.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-07-15,3.4441386306349915,+0.9% vs this route's past average,+11.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-01-20,3.504169620188541,+0.9% vs this route's past average,+14.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-05-27,3.4444426250684543,+0.6% vs this route's past average,+10.9% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-08-25,3.631825015255676,+0.5% vs this route's past average,+12.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-01-22,3.378891559642258,+0.4% vs this route's past average,+13.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-04-28,3.414781161285406,+0.4% vs this route's past average,+12.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-12-02,3.4404947051859067,+0.4% vs this route's past average,+13.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-11-04,3.422777826960083,+0.3% vs this route's past average,+13.8% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-08-19,3.421755466927773,+0.2% vs this route's past average,+11.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-11-25,3.4319454636996314,+0.2% vs this route's past average,+12.2% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-11-10,3.9680310840963298,-0.1% vs this route's past average,+21.4% vs similar-length routes this week,Yes,,"The note explicitly states that compliance costs were absorbed by transporters without a rate change, meaning it does not justify a cost increase."
+Mumbai-Pune,2025-04-14,3.399352480829376,-0.5% vs this route's past average,+13.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-02-24,3.410400818229306,-0.6% vs this route's past average,+10.6% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-04-01,3.3289607115279054,-1.0% vs this route's past average,+11.3% vs similar-length routes this week,Yes,,"The retrieved note N004 explicitly states that the affected routes are not part of this dataset, therefore it does not justify the cost spike for the Mumbai-Pune route."
+Mumbai-Pune,2025-02-17,3.4085110589266203,-1.0% vs this route's past average,+10.1% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-03-17,3.3903911712024035,-1.2% vs this route's past average,+10.1% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-08-05,3.3705491485856367,-1.9% vs this route's past average,+10.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-07-21,3.527635080988204,-1.9% vs this route's past average,+10.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-08-12,3.345202517962739,-2.0% vs this route's past average,+11.4% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-02-10,3.387743897089414,-2.2% vs this route's past average,+13.3% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2025-02-03,3.3323631936996736,-4.1% vs this route's past average,+10.5% vs similar-length routes this week,Yes,,No note matches this route and timeframe.
+Mumbai-Pune,2024-01-01,3.3012764038642617,,+10.0% vs similar-length routes this week,Yes,,No note matches this route and timeframe.

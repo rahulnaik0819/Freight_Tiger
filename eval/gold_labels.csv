@@ -1,0 +1,22 @@
+route,week_of,gold_flagged,gold_note_id,certainty,basis
+Ahmedabad-Mumbai,2025-01-20,No (justified),N002,clear,N002 is route-specific and describes a festival-week surcharge in exactly this week
+Chennai-Bangalore,2025-02-24,No (justified),N001,clear,N001 flooding Feb 24 - Mar 8 raised trip costs on this route; week starts Feb 24
+Chennai-Bangalore,2025-03-03,No (justified),N001,clear,N001 period Feb 24 - Mar 8 covers 3-8 Mar (roads passable again 9 Mar)
+Chennai-Bangalore,2025-03-10,Yes,,clear,N001 period ended 8 Mar; N009 (17 Mar) says conditions returned to normal
+Chennai-Bangalore,2025-03-17,Yes,,clear,N009 says the route returned to normal; N001 expired
+Chennai-Bangalore,2025-05-05,No (justified),N003,clear,N003 all-routes diesel rise starting the week of 2025-05-05
+Chennai-Bangalore,2025-05-12,No (justified),N003,ambiguous,N003 says rise started 05-05 ("starting this week") - the week after the note week is arguably still covered
+Mumbai-Delhi,2025-05-12,No (justified),N003,ambiguous,same N003 open-ended wording; one week after the note week
+Mumbai-Pune,2025-05-12,No (justified),N003,ambiguous,same N003 open-ended wording; one week after the note week
+Mumbai-Delhi,2025-09-22,Yes,,clear,N006 says demand stable with no disruptions - not a cost-rise reason
+Mumbai-Pune,2025-09-22,Yes,,clear,N006 stable demand - not a cost-rise reason
+Mumbai-Pune,2025-09-29,Yes,,clear,N006 stable demand - not a cost-rise reason
+Mumbai-Pune,2025-10-06,Yes,,clear,N006 stable demand - not a cost-rise reason
+Mumbai-Pune,2025-10-13,Yes,,clear,N006 stable demand - not a cost-rise reason
+Mumbai-Pune,2025-10-27,Yes,,clear,N010 says compliance costs absorbed without a rate change
+Mumbai-Pune,2025-11-03,Yes,,clear,N010 absorbed without a rate change
+Mumbai-Pune,2025-11-10,Yes,,clear,N010 absorbed without a rate change
+Mumbai-Pune,2025-11-17,Yes,,clear,N010 absorbed without a rate change
+Mumbai-Pune,2024-03-18,Yes,,clear,N004 toll plaza affects routes not in this dataset
+Mumbai-Pune,2024-03-25,Yes,,clear,N004 routes not in dataset
+Mumbai-Pune,2024-04-01,Yes,,clear,N004 routes not in dataset

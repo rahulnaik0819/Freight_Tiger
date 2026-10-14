@@ -1,0 +1,5 @@
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+sentence-transformers>=3.0   # default retriever (all-MiniLM-L6-v2); pipeline falls back to TF-IDF if missing
+google-genai>=1.0            # Gemini client; only needed for live (non-cached) LLM calls

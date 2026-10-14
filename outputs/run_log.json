@@ -1,0 +1,19 @@
+{
+  "live_calls": 21,
+  "failed_attempts": 0,
+  "cache_hits": 0,
+  "input_tokens": 5364,
+  "output_tokens": 1494,
+  "models": {
+    "gemini-3.1-flash-lite": 21
+  },
+  "retriever": "minilm",
+  "spikes": 90,
+  "rule_rows_no_llm": 69,
+  "llm_error_rows": 0,
+  "seconds": 143.6,
+  "flagged_counts": {
+    "Yes": 83,
+    "No (justified)": 7
+  }
+}
