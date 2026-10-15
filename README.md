@@ -2,9 +2,18 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg) ![Gemini](https://img.shields.io/badge/Gemini_API-3.1_Flash_Lite-orange.svg) ![Pandas](https://img.shields.io/badge/Pandas-Data_Engineering-green.svg) ![Status](https://img.shields.io/badge/Status-Production_Ready-success.svg)
 
+``` bash
+What the Problem Was (In Plain Terms)
+```
+Freight Tiger helps businesses move freight across India. When shipping goods by truck, cost typically depends on distance and weight. Over time, however, the rate per kilometer and tonne on certain routes can quietly jump. Sometimes, there is a legitimate real world reason for that jump like severe monsoon flooding causing detours, a festival surcharge, or a nationwide diesel price spike. Other times, costs increase without any valid operational justification.Freight Tiger asked to build an automated, reliable system to:Detect abnormal cost spikes week-by-week across all shipping routes.  
+
+Read real-world operational notes (fuel hikes, weather delays, regional festivals) to determine whether each spike was justified or unjustified.Produce an audited report explaining every anomaly in plain English, citing the exact note when justified, or marking it "unexplained" when no legitimate note supports it
+
 A production-ready Retrieval-Augmented Generation (RAG) pipeline built to automatically audit and justify freight cost anomalies. The system monitors weekly cost-per-tonne-km across corridors, detects statistical spikes against historical and peer baselines, and cross-references human-written operational notes to determine whether an anomaly is genuinely justified or requires human audit.
 
+
 If a note justifies the spike, the pipeline records the explanation and cites the exact note ID. If no candidate note applies, the system flags it as an "unexplained" anomaly.
+
 
 ---
 
@@ -25,11 +34,13 @@ python eval_harness.py
 # 4. Verify cross-run deterministic reproducibility across multiple runs
 python repro_check.py --live --model gemini-3.1-flash-lite
 ```
+```bash
 python freight_audit.py run            # writes outputs/final_submission.csv (+ audit_detail.csv, run_log.json)
 python freight_audit.py run --no-cache # force live Gemini calls (needs GEMINI_API_KEY env var or Colab secret)
 python freight_audit.py validate       # contract + grounding check on the CSV
 python eval_harness.py                 # 28 tests + gold-set scoring -> outputs/eval_report.json
 python repro_check.py [--live --model M]  # 3 runs, diff -> outputs/repro_report.txt
+```
 ```
 Colab: upload the repo, set the `GEMINI_API_KEY` secret, then `!python freight_audit.py run --no-cache`.
 `original_notebook.ipynb` is the first version, kept for reference.
