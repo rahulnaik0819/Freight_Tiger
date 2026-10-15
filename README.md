@@ -1,8 +1,29 @@
-# FreightTiger – Freight Cost Anomaly Auditor
+# 🚛 FreightTiger – Freight Cost Anomaly Auditor
 
-Watches weekly cost per tonne-km per route, flags weeks that look out of the ordinary, and explains each
-flag from the provided context notes – or says "unexplained" when no note genuinely supports it.
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg) ![Gemini](https://img.shields.io/badge/Gemini_API-3.1_Flash_Lite-orange.svg) ![Pandas](https://img.shields.io/badge/Pandas-Data_Engineering-green.svg) ![Status](https://img.shields.io/badge/Status-Production_Ready-success.svg)
 
+A production-ready Retrieval-Augmented Generation (RAG) pipeline built to automatically audit and justify freight cost anomalies. The system monitors weekly cost-per-tonne-km across corridors, detects statistical spikes against historical and peer baselines, and cross-references human-written operational notes to determine whether an anomaly is genuinely justified or requires human audit.
+
+If a note justifies the spike, the pipeline records the explanation and cites the exact note ID. If no candidate note applies, the system flags it as an "unexplained" anomaly.
+
+---
+
+## 🚀 Quick Start
+
+Ensure your `GEMINI_API_KEY` is available via environment variable or Colab secret.
+
+```bash
+# 1. Run the end-to-end pipeline (outputs/final_submission.csv, audit_detail.csv, run_log.json)
+python freight_audit.py run --no-cache
+
+# 2. Validate output schema & strict grounding contract against sample specs
+python freight_audit.py validate
+
+# 3. Execute the 28-test evaluation harness & gold-set scoring
+python eval_harness.py
+
+# 4. Verify cross-run deterministic reproducibility across multiple runs
+python repro_check.py --live --model gemini-3.1-flash-lite
 ```
 python freight_audit.py run            # writes outputs/final_submission.csv (+ audit_detail.csv, run_log.json)
 python freight_audit.py run --no-cache # force live Gemini calls (needs GEMINI_API_KEY env var or Colab secret)
@@ -12,6 +33,7 @@ python repro_check.py [--live --model M]  # 3 runs, diff -> outputs/repro_report
 ```
 Colab: upload the repo, set the `GEMINI_API_KEY` secret, then `!python freight_audit.py run --no-cache`.
 `original_notebook.ipynb` is the first version, kept for reference.
+```
 
 ## How it works
 
@@ -97,8 +119,14 @@ From `outputs/run_log.json`, one full live run over the whole shipment file (`py
 
 ## Known limitations (be ready to discuss)
 - **Peer baseline is thin.** Short and Long groups have only two routes each, so "peers" is a single route. Mumbai-Pune sits ~12% above Delhi-Jaipur in the median week, so it is flagged chronically: 82 of 90 flags are peer-only, 67 are Mumbai-Pune, and 11 flagged rows are not rising versus their own history. I kept the brief's definition and the OR rule (the sample file's Mumbai-Pune row is exactly such a flag). The 10% threshold is my assumption; sensitivity is in `eval_report.json` (1.05→219 flags, 1.10→90, 1.15→27, 1.20→20).
+  
 - **An all-routes note cannot explain a gap to peers.** N003 raised every route, so for flags caused only by the peer comparison the reason carries an explicit caveat instead of claiming a full explanation.
+  
 - **Retrieval is a hard filter, not semantic ranking.** With 10 notes the filter leaves at most 2 candidates, so top-k never binds and the embedding model cannot change which notes the judge sees. Similarity-only retrieval would have put a route- or date-invalid note in the top 3 for 90/90 spikes (TF-IDF test), which is why the filter exists.
+  
 - **Verifier wording rules are tuned to this note corpus** (regex cues for "increase" / "not affected"); new phrasings would need new cues. The gold set is small and was labelled by the author after seeing outputs.
+  
 - **Not done:** the stretch Q&A ("why did this route get pricier in March?").
+  
 - **Not executed in the build environment:** the live Gemini call path and the MiniLM embedder (no API key; HuggingFace blocked). Tests used a stubbed LLM and the TF-IDF retriever; the live code uses the same call, schema and prompt as the original.
+
